@@ -11,6 +11,7 @@
 
 body {
   font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
 }
 body a {
   display: block;
@@ -19,13 +20,17 @@ body a {
 }
 
 .top {
+  color: white;
+  height: 100vh;
   background-image: url("../img/header.PNG");
+  background-position: center;
+  background-size: cover;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  background: black;
+  background: transparent;
   color: white;
 }
 .nav .left a {
@@ -37,6 +42,18 @@ body a {
 }
 .nav ul li a {
   padding: 10px;
+}
+
+.hero {
+  margin-left: 20%;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 10%;
+}
+.hero h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=css/main.css.map */
