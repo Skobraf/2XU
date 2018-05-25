@@ -3,6 +3,9 @@
 body{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
   a {
     display: block;
     text-decoration: none;
@@ -27,6 +30,8 @@ body{
   background: transparent;
   color: white;
   border-bottom: 1px solid rgba(121,121,121,0.3);
+
+  animation: fadeInDown 0.9s;
   .left {
     a {
       padding: 0 30px;
@@ -73,12 +78,14 @@ body{
     line-height: 7rem;
     text-transform: uppercase;
     padding: 6% 0;
+    animation: fadeInLeft 0.5s;
   }
   p {
     line-height: 2.5rem;
     font-size: 2.0rem;
     padding-bottom: 2.5rem;
     color: #c1c1c1;
+    animation: fadeInLeft 0.7s;
   }
   button {
     display: flex;
@@ -93,6 +100,7 @@ body{
     height: 2.4rem;
     padding: 0 2rem;
     cursor: pointer;
+    animation: fadeInLeft 0.9s;
 
     span.btn-txt {
       padding-left: 0.5rem;
@@ -139,10 +147,17 @@ body{
     }
     button {
     background: none;
-    border: none;
+    border: 1px solid transparent;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
+    height: 2rem;
+    padding: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    button:hover {
+      border-color: white;
     }
   }
   .women {
@@ -150,6 +165,7 @@ body{
     background-size: cover;
     width:50%;
     padding: 5%;
+    color: #333;
     h1 {
       padding-bottom: 2rem;
       text-transform: uppercase;
@@ -168,10 +184,36 @@ body{
     }
     button {
     background: none;
-    border: none;
+    border: 1px solid transparent;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: black;
+    color: #333;
+    height: 2rem;
+    padding: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
     }
+    button:hover {
+      border-color: #333;
+
+    }
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translate(-500px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
   }
 }
