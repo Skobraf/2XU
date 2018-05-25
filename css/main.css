@@ -21,7 +21,7 @@ body a {
 
 .top {
   color: white;
-  height: 100vh;
+  height: 800px;
   background-image: url("../img/header.PNG");
   background-position: center;
   background-size: cover;
@@ -45,15 +45,33 @@ body a {
 }
 
 .hero {
-  margin-left: 20%;
+  margin-left: 11%;
   margin-right: auto;
   width: 30%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .hero h1 {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 8rem;
+  line-height: 7rem;
   text-transform: uppercase;
+  padding: 6% 0;
+}
+.hero p {
+  line-height: 2.5rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #c1c1c1;
+}
+.hero button {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: inherit;
+  color: white;
+  border: 1px solid #675757;
+  border-radius: 3px;
+  font-size: 1rem;
+  height: 2.2rem;
+  padding: 0 2rem;
 }
 
 /*# sourceMappingURL=css/main.css.map */
