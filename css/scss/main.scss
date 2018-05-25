@@ -6,6 +6,7 @@ body{
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  background: black;
   a {
     display: block;
     text-decoration: none;
@@ -16,12 +17,17 @@ body{
   }
 }
 
+.hide {
+  opacity: 0;
+}
+
 .top {
   color: white;
   height: 800px;
   background-image: url('../img/header.PNG');
   background-position: center;
   background-size: cover;
+  transition: opacity 1s;
 }
 .nav {
   display: flex;
@@ -100,6 +106,7 @@ body{
     height: 2.4rem;
     padding: 0 2rem;
     cursor: pointer;
+    transition: background-color 0.5s;
     animation: fadeInLeft 0.9s;
 
     span.btn-txt {
@@ -155,6 +162,7 @@ body{
     padding: 0 5px;
     border-radius: 3px;
     cursor: pointer;
+    transition: border-color 0.5s;
     }
     button:hover {
       border-color: white;
@@ -192,6 +200,7 @@ body{
     padding: 0 5px;
     border-radius: 3px;
     cursor: pointer;
+    transition: border-color 0.5s;
     }
     button:hover {
       border-color: #333;
