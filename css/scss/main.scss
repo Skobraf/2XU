@@ -1,6 +1,7 @@
 @import '_reset';
 
 body{
+  font-family: 'Open Sans Condensed', sans-serif;
   a {
     display: block;
     text-decoration: none;
@@ -8,6 +9,11 @@ body{
   }
 }
 
+.top {
+  color: white;
+  height: 90vh;
+  background-image: url('../img/header.PNG');
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -26,7 +32,7 @@ body{
       a {
         padding: 10px;
       }
-      
+
     }
   }
 }

@@ -9,10 +9,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
 body a {
   display: block;
   text-decoration: none;
   color: inherit;
+}
+
+.top {
+  background-image: url("../img/header.PNG");
 }
 
 .nav {
