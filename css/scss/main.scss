@@ -1,1 +1,32 @@
-@import '_reset'
+@import '_reset';
+
+body{
+  a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  .left {
+    a {
+      padding: 10px;
+    }
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      a {
+        padding: 10px;
+      }
+      
+    }
+  }
+}
