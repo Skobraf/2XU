@@ -32,6 +32,7 @@ body a {
   justify-content: space-between;
   background: transparent;
   color: white;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
 }
 .nav .left a {
   padding: 10px;
@@ -41,14 +42,24 @@ body a {
   list-style-type: none;
 }
 .nav ul li a {
-  padding: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.nav ul li a:hover {
+  color: rgba(200, 200, 200, 0.5);
+}
+.nav ul li:last-child {
+  border-left: 1px solid rgba(121, 121, 121, 0.3);
+}
+.nav ul li:last-child a {
+  padding: 10px 30px;
 }
 
 .hero {
-  margin-left: 11%;
+  margin-left: 8%;
   margin-right: auto;
   width: 30%;
-  margin-top: 3%;
+  margin-top: 10%;
 }
 .hero h1 {
   font-size: 8rem;
@@ -59,19 +70,36 @@ body a {
 .hero p {
   line-height: 2.5rem;
   font-size: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
   color: #c1c1c1;
 }
 .hero button {
+  display: flex;
+  align-items: center;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   background: inherit;
   color: white;
   border: 1px solid #675757;
   border-radius: 3px;
-  font-size: 1rem;
-  height: 2.2rem;
+  font-size: 0.8rem;
+  height: 2.4rem;
   padding: 0 2rem;
+  cursor: pointer;
+}
+.hero button span.btn-txt {
+  padding-left: 0.5rem;
+}
+.hero button span.dot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.hero button:hover {
+  background-color: white;
+  color: #675757;
 }
 
 /*# sourceMappingURL=css/main.css.map */
