@@ -102,4 +102,9 @@ body a {
   color: #675757;
 }
 
+.men {
+  background-image: url("../img/man_img.PNG");
+  background-size: cover;
+}
+
 /*# sourceMappingURL=css/main.css.map */
