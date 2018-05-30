@@ -155,7 +155,7 @@ body ul {
 }
 .collection .men .lists {
   display: flex;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   transition: opacity 1s;
 }
 .collection .men .lists ul {
@@ -196,7 +196,7 @@ body ul {
 }
 .collection .women .lists {
   display: flex;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   transition: opacity 1s;
 }
 .collection .women .lists ul {
@@ -320,7 +320,7 @@ body ul {
   background-repeat: no-repeat;
 }
 .details .content {
-  padding: 200px 0 0 50px;
+  padding: 130px 0 0 60px;
 }
 .details .content h2 {
   font-size: 1.5rem;
