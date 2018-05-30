@@ -33,7 +33,7 @@ body ul {
 .top {
   color: white;
   height: 800px;
-  background-image: url("../img/header.PNG");
+  background-image: url("../img/header.png");
   background-position: center;
   background-size: cover;
   transition: opacity 1s;
@@ -137,7 +137,7 @@ body ul {
   height: 360px;
 }
 .collection .men {
-  background-image: url("../img/man_img.PNG");
+  background-image: url("../img/man_img.png");
   background-size: cover;
   width: 50%;
   color: white;
@@ -178,7 +178,7 @@ body ul {
   border-color: white;
 }
 .collection .women {
-  background-image: url("../img/lady_img.PNG");
+  background-image: url("../img/lady_img.png");
   background-size: cover;
   width: 50%;
   padding: 5%;
@@ -221,7 +221,7 @@ body ul {
 
 .single-collection {
   height: 520px;
-  background-image: url("../img/mid_page2.PNG");
+  background-image: url("../img/mid_page2.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -313,7 +313,7 @@ body ul {
 }
 .details .right {
   width: 50%;
-  background: url("../img/right-min.PNG");
+  background: url("../img/right-min.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
