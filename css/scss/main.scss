@@ -100,7 +100,7 @@ body{
     letter-spacing: 1px;
     background: inherit;
     color: white;
-    border: 1px solid #675757;
+    border: 1px solid rgba(121,121,121,0.2);
     border-radius: 3px;
     font-size: 0.8rem;
     height: 2.4rem;
@@ -217,7 +217,8 @@ body{
 
 .single-collection {
   height: 520px;
-  background-image: url('../img/mid_page2.png');
+  background-image: url('../img/mid_page3.jpg');
+  background-position: 50% 50%;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -239,7 +240,7 @@ body{
       letter-spacing: 1px;
       background: inherit;
       color: white;
-      border: 1px solid #675757;
+      border: 1px solid rgba(121,121,121,0.2);
       border-radius: 3px;
       font-size: 0.8rem;
       height: 2.4rem;
