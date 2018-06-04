@@ -10,7 +10,7 @@ window.addEventListener("scroll", function(){
   else{
     headertop.classList.remove("hide");
   }
-  if (this.scrollY >= 410){
+  if (this.scrollY >= 350){
     for(let i = 0; i < men.children.length; i++){
       women.children[i].style.opacity = 1.0;
       men.children[i].style.opacity = 1.0;

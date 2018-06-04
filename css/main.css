@@ -33,7 +33,11 @@ body ul {
 .top {
   color: white;
   height: 800px;
+<<<<<<< HEAD
   background-image: url("../img/header.PNG");
+=======
+  background-image: url("../img/header.png");
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   background-position: center;
   background-size: cover;
   transition: opacity 1s;
@@ -107,7 +111,11 @@ body ul {
   letter-spacing: 1px;
   background: inherit;
   color: white;
+<<<<<<< HEAD
   border: 1px solid #675757;
+=======
+  border: 1px solid rgba(121, 121, 121, 0.2);
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   border-radius: 3px;
   font-size: 0.8rem;
   height: 2.4rem;
@@ -137,7 +145,11 @@ body ul {
   height: 360px;
 }
 .collection .men {
+<<<<<<< HEAD
   background-image: url("../img/man_img.PNG");
+=======
+  background-image: url("../img/man_img.png");
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   background-size: cover;
   width: 50%;
   color: white;
@@ -155,7 +167,11 @@ body ul {
 }
 .collection .men .lists {
   display: flex;
+<<<<<<< HEAD
   padding-bottom: 3rem;
+=======
+  padding-bottom: 2rem;
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   transition: opacity 1s;
 }
 .collection .men .lists ul {
@@ -178,7 +194,11 @@ body ul {
   border-color: white;
 }
 .collection .women {
+<<<<<<< HEAD
   background-image: url("../img/lady_img.PNG");
+=======
+  background-image: url("../img/lady_img.png");
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   background-size: cover;
   width: 50%;
   padding: 5%;
@@ -196,7 +216,11 @@ body ul {
 }
 .collection .women .lists {
   display: flex;
+<<<<<<< HEAD
   padding-bottom: 3rem;
+=======
+  padding-bottom: 2rem;
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   transition: opacity 1s;
 }
 .collection .women .lists ul {
@@ -221,7 +245,12 @@ body ul {
 
 .single-collection {
   height: 520px;
+<<<<<<< HEAD
   background-image: url("../img/mid_page2.PNG");
+=======
+  background-image: url("../img/mid_page3.jpg");
+  background-position: 50% 50%;
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -244,14 +273,21 @@ body ul {
   letter-spacing: 1px;
   background: inherit;
   color: white;
+<<<<<<< HEAD
   border: 1px solid #675757;
+=======
+  border: 1px solid rgba(121, 121, 121, 0.2);
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   border-radius: 3px;
   font-size: 0.8rem;
   height: 2.4rem;
   padding: 0 2rem;
   cursor: pointer;
   transition: background-color 0.5s;
+<<<<<<< HEAD
   animation: fadeInLeft 0.9s;
+=======
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
 }
 .single-collection .summer-collection button:hover {
   background-color: white;
@@ -278,7 +314,11 @@ body ul {
   justify-content: space-around;
 }
 .details .left ul li {
+<<<<<<< HEAD
   width: 23%;
+=======
+  width: 30%;
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
 }
 .details .left ul li .img {
   display: block;
@@ -313,13 +353,21 @@ body ul {
 }
 .details .right {
   width: 50%;
+<<<<<<< HEAD
   background: url("../img/right-min.PNG");
+=======
+  background: url("../img/right-min.png");
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .details .content {
+<<<<<<< HEAD
   padding: 200px 0 0 50px;
+=======
+  padding: 130px 0 0 60px;
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
 }
 .details .content h2 {
   font-size: 1.5rem;
@@ -349,7 +397,11 @@ body ul {
 
 footer {
   font-size: 1.1rem;
+<<<<<<< HEAD
   text-transform: uppercase;
+=======
+  text-transform: capitalize;
+>>>>>>> 3efbac54cb01baee29117abfe56fd4f6eb008316
   background: rgba(60, 58, 58, 0.7);
   color: white;
   display: flex;
