@@ -1,0 +1,385 @@
+/**
+  * This file removes browser default configuration
+**/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  background: black;
+}
+body a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+body ul {
+  list-style: none;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.top {
+  color: white;
+  height: 800px;
+  background-image: url("../img/header.png");
+  background-position: center;
+  background-size: cover;
+  transition: opacity 1s;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+  animation: fadeInDown 0.9s;
+}
+.nav .left a {
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 2rem;
+  font-variant: small-caps;
+  font-family: "Anton", sans-serif;
+}
+.nav .left a:hover {
+  color: rgba(200, 200, 200, 0.5);
+}
+.nav ul {
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.nav ul li a {
+  height: 100%;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.nav ul li a:hover {
+  color: rgba(200, 200, 200, 0.5);
+}
+.nav ul li:last-child {
+  border-left: 1px solid rgba(121, 121, 121, 0.3);
+}
+.nav ul li:last-child a {
+  padding: 10px 30px;
+}
+
+.hero {
+  margin-left: 8%;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 10%;
+}
+.hero h1 {
+  font-size: 8rem;
+  line-height: 7rem;
+  text-transform: uppercase;
+  padding: 6% 0;
+  animation: fadeInLeft 0.5s;
+}
+.hero p {
+  line-height: 2.5rem;
+  font-size: 2rem;
+  padding-bottom: 2.5rem;
+  color: #c1c1c1;
+  animation: fadeInLeft 0.7s;
+}
+.hero button {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: inherit;
+  color: white;
+  border: 1px solid rgba(121, 121, 121, 0.2);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  height: 2.4rem;
+  padding: 0 2rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  animation: fadeInLeft 0.9s;
+}
+.hero button span.btn-txt {
+  padding-left: 0.5rem;
+}
+.hero button span.dot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.hero button:hover {
+  background-color: white;
+  color: #675757;
+}
+
+.collection {
+  display: flex;
+  width: 100%;
+  height: 360px;
+}
+.collection .men {
+  background-image: url("../img/man_img.png");
+  background-size: cover;
+  width: 50%;
+  color: white;
+  padding: 5%;
+}
+.collection .men h1 {
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  transition: opacity 1s;
+}
+.collection .men h3 {
+  padding-bottom: 0.4rem;
+  transition: opacity 1s;
+}
+.collection .men .lists {
+  display: flex;
+  padding-bottom: 2rem;
+  transition: opacity 1s;
+}
+.collection .men .lists ul {
+  padding-right: 4rem;
+  font-size: 1.1rem;
+}
+.collection .men button {
+  background: none;
+  border: 1px solid transparent;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  height: 2rem;
+  padding: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: border-color 0.5s, opacity 1s;
+}
+.collection .men button:hover {
+  border-color: white;
+}
+.collection .women {
+  background-image: url("../img/lady_img.png");
+  background-size: cover;
+  width: 50%;
+  padding: 5%;
+  color: #333;
+}
+.collection .women h1 {
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  transition: opacity 1s;
+}
+.collection .women h3 {
+  padding-bottom: 0.4rem;
+  transition: opacity 1s;
+}
+.collection .women .lists {
+  display: flex;
+  padding-bottom: 2rem;
+  transition: opacity 1s;
+}
+.collection .women .lists ul {
+  padding-right: 4rem;
+  font-size: 1.1rem;
+}
+.collection .women button {
+  background: none;
+  border: 1px solid transparent;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333;
+  height: 2rem;
+  padding: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: border-color 0.5s, opacity 1s;
+}
+.collection .women button:hover {
+  border-color: #333;
+}
+
+.single-collection {
+  height: 520px;
+  background-image: url("../img/mid_page3.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-collection .summer-collection {
+  margin-top: 12rem;
+}
+.single-collection .summer-collection h1 {
+  text-transform: uppercase;
+  font-size: 7rem;
+  color: white;
+  text-align: center;
+}
+.single-collection .summer-collection button {
+  text-transform: uppercase;
+  display: flex;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: inherit;
+  color: white;
+  border: 1px solid rgba(121, 121, 121, 0.2);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  height: 2.4rem;
+  padding: 0 2rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.single-collection .summer-collection button:hover {
+  background-color: white;
+  color: #675757;
+}
+
+.details {
+  height: 520px;
+  width: 100%;
+  display: flex;
+}
+.details .left {
+  width: 50%;
+  background: white;
+  padding: 50px;
+}
+.details .left h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+.details .left ul {
+  display: flex;
+  justify-content: space-around;
+}
+.details .left ul li {
+  width: 30%;
+}
+.details .left ul li .img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+.details .left ul li .img1 {
+  background-image: url("../img/1.png");
+}
+.details .left ul li .img2 {
+  background-image: url("../img/2.png");
+}
+.details .left ul li .img3 {
+  background-image: url("../img/3.png");
+}
+.details .left ul li h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.details .left ul li p {
+  line-height: 1.2rem;
+  margin-bottom: 15px;
+}
+.details .left ul li a {
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+.details .right {
+  width: 50%;
+  background: url("../img/right-min.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.details .content {
+  padding: 130px 0 0 60px;
+}
+.details .content h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.details .content h1 {
+  font-size: 85px;
+}
+.details .content button {
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #d43030;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  height: 2.4rem;
+  padding: 0 2rem;
+  cursor: pointer;
+  margin: 30px 0;
+}
+.details .content button:hover {
+  transform: translateY(-3px);
+  transition: transform 0.4s;
+}
+
+footer {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  background: rgba(60, 58, 58, 0.7);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  padding: 20px;
+}
+footer ul li a:hover {
+  color: rgba(200, 200, 200, 0.5);
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translate(-500px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=css/main.css.map */
